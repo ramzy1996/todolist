@@ -29,7 +29,9 @@
   outline: none;
   transition: 0.5s;
 }
-
+#inputBox:focus {
+  border-color: rgb(3, 255, 3);
+}
 .inputContainer {
   align-items: center;
   display: flex;
